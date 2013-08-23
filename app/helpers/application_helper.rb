@@ -17,8 +17,8 @@ module ApplicationHelper
     options = params[:controller] == "welcome" ? { class: "active" } : {}
     links << content_tag(:li, link_to(t("home"), welcome_path), options).html_safe
 
-    #options = params[:controller] == "articles" ? { class: "active" } : {}
-    #links << content_tag(:li, link_to(t("articles.title"), articles_path), options).html_safe
+    options = params[:controller] == "articles" ? { class: "active" } : {}
+    links << content_tag(:li, link_to(t("articles.title"), articles_path), options).html_safe
 
     content_tag(:ul, links.join("\n").html_safe, class: "nav")
   end
