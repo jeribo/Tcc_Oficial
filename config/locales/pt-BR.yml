@@ -1,0 +1,12 @@
+pt-BR:
+  hello: Olá
+  home: Início
+  site_name: "SurveyGen - Gerador de Pesquisas"
+  logged_in: "Logado como"
+  translation:
+    en: Inglês
+    pt-BR: Português
+  admin:
+    title: "Administração"
+  articles:
+    title: "Artigos"

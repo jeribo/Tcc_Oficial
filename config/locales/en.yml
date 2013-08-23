@@ -1,0 +1,10 @@
+en:
+  hello: "Hello world"
+  site_name: "SurveyGen - Generator of Surveys"
+  translation:
+    en: English
+    pt-BR: Portuguese
+  admin:
+    title: "Administration"
+  articles:
+    title: "Articles"
